@@ -7,6 +7,8 @@ namespace EpamHomeWork
     {
         static void Main(string[] args)
         {
+            string conversion = "";
+            
             Console.WriteLine("Type number and press Enter");
             var number = int.Parse(Console.ReadLine());
 
@@ -17,9 +19,7 @@ namespace EpamHomeWork
             {
                 throw new ArgumentException("Please type number from 2 to 20.");
             }
-
-            string conversion = "";
-
+            
             while (number != 0 && baseNumber >= 2 && baseNumber <= 20)
             {
                 conversion += Convert.ToString(number % baseNumber);
