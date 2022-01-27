@@ -7,6 +7,10 @@
         {
         }
 
+        public PassengerCar()
+        {
+        }
+
         public override string ToString()
         {
             return $"Complete information about passenger car:" +

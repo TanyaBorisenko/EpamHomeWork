@@ -6,6 +6,10 @@
         {
         }
 
+        public Scooter()
+        {
+        }
+
         public override string ToString()
         {
             return $"Complete information about scooter:" +

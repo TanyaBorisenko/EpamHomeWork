@@ -6,6 +6,10 @@
         public int NumberOfGears { get; set; }
         public string Manufacturer { get; set; }
 
+        public Transmission()
+        {
+        }
+
         public Transmission(string typeTransmission, int gears, string transmissionManufacturer)
         {
             Type = typeTransmission;

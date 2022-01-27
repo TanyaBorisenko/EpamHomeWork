@@ -6,6 +6,10 @@
         {
         }
 
+        public Bus()
+        {
+        }
+
         public override string ToString()
         {
             return $"Complete information about bus:" +

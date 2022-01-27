@@ -6,6 +6,10 @@
         {
         }
 
+        public Truck()
+        {
+        }
+
         public override string ToString()
         {
             return $"Complete information about truck:" +
